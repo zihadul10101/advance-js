@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance js</title>
+</head>
+<body>
+    <button onclick="myFunction()">try it </button>
+    <p id="demo" >Click the button to get the square root of each element in the array</p>
+    
+
+</body>
+<script>
+    var numbers=[4,49];
+    function myFunction(){
+        x=document.getElementById("demo")
+        x.innerHTML=numbers.map(Math.sqrt);
+    }
+</script>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get the square root of each element in the array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var numbers = [4, 9, 16, 25];
+
+function myFunction() {
+  x = document.getElementById("demo")
+  x.innerHTML = numbers.map(Math.sqrt);
+}
+</script>
+
+</body>
+</html> -->
