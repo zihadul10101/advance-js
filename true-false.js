@@ -10,12 +10,23 @@
 //let name=null;
 //falsy:0,"",null,NaN ,undefined,false
 //truthy:'0' " ",
-let name =0;
-//console.log(name);
+// let name =0;
+// //console.log(name);
 
-if(name){
-    console.log("condition is true");
+// if(name){
+//     console.log("condition is true");
+// }
+// else{
+//     console.log("condition is false");
+// }
+if( 'false' ){
+
+    console.log("I am not false")
+
 }
+
 else{
-    console.log("condition is false");
+
+    console.log("I am false")
+
 }
